@@ -3367,6 +3367,32 @@ select.mobile-device {
     background-color: rgb(255, 238, 238); /* Light red color of the blob with some transparency */
     z-index: -1; /* Set a lower z-index to place the blob behind the text */
 }
+.navbar-brand img[alt="Robot Logo"] {
+    height: 41px; /* Set the desired height */
+    width: 43x; /* Let the width adjust automatically to maintain the aspect ratio */
+}
 
 
 
+
+/* Add your existing CSS styles here */
+
+/* Styles for the small "A" over the "I" in "SRUPTIVE" */
+.small-a {
+    font-size: 0.25em;
+    position: relative;
+    top: -2em;
+    left: 0.4em;
+}
+
+/* Styles for the regular "I" to display it properly */
+.regular-i {
+    font-size: 0.65em; /* Adjust the font size as per your preference */
+    position: relative;
+    left: -0.1em;
+}
+.homepage-three-title {
+    font-size: 2em;
+    letter-spacing: -0.01em; /* Adjust the letter spacing to your liking */
+    position: relative;
+}
